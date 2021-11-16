@@ -30,7 +30,7 @@ def function(self, x):
 ```
 
 <strong>Note that. parameter x must be listed.</strong>
-<p>If your objective function is complicated don't worry you can define it as you want but the function must return a value in one dimension.<br>
+<p>If your objective function is complicated don't worry you can define it as you want but the function must return a value in one dimension.
 For more <a href="https://en.wikipedia.org/wiki/Test_functions_for_optimization">test function</a></p>
 <br>
 <p>Next step you need to determine the result function to return the parameters that pass into the objective function as an example</p>
