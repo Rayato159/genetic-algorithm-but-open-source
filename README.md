@@ -1,6 +1,6 @@
 <h1>🧬Genetic Algorithm but Open Source</h1>
 
-<p>Created by <strong>HashTable159</strong><br>
+<p>Created by <strong>HashTable159 (HashTable159 === Rayato159)</strong><br>
 This repository is for my mini-project. You can customize it as freely xD.</p>
 
 <h3>Into the "Genetic Algorithm"</h3>
