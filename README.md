@@ -12,7 +12,7 @@ The <a href="https://en.wikipedia.org/wiki/Genetic_algorithm">Genetic Algorithm 
   <li><a href="#objectiveFunction">How to define objective function</a></li>
   <li><a href="#constraints">How to define constraints</a></li>
   <li><a href="#main">How to define use main.py</a></li>
-  <li><a href="#hyperparameters">Default hyperparameters</a></li>
+  <li><a href="#hyperparameters">Hyperparameters Reference</a></li>
 </ul>
 
 <h2 id="objectiveFunction">How to define objective function</h2>
@@ -82,3 +82,42 @@ if(
   True
 ):
 ```
+<h2 id="main">How to define use <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/main.py">main.py</a></h2>
+<p>This step is the last step before run the algorithm. You must define lower bounds, upper bounds and hyperparameters as you want.<br>
+For example</p>
+
+```python
+# Use for run GA
+
+# Define lower bounds here
+lower_bounds = [
+    -5,
+    -5
+]
+
+# Define upper bounds here
+upper_bounds = [
+    5,
+    5
+]
+
+genetic = GA(
+    parameters_num=len(lower_bounds),
+    bits=16,
+    population_num=100, 
+    generation=100, 
+    crossover_prob=0.95, # percent 
+    mutation_prob=0.03,  # percent
+    k=3,                 # the random number for pick random parents
+    lower_bounds=lower_bounds,
+    upper_bounds=upper_bounds
+)
+```
+
+<p>If all of the above steps are finished you can use this command to run the algorithm. (Don't forget to cd into a working directory.)</p>
+
+```bash
+python main.py
+```
+<h2 id="hyperparameters">Hyperparameters Reference</h2>
+Reference for hyperparameters <a href="https://www.mdpi.com/2078-2489/10/12/390/pdf">link</a>.
