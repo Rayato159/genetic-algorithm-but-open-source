@@ -9,13 +9,13 @@ The <a href="https://en.wikipedia.org/wiki/Genetic_algorithm" target="_blank">Ge
 
 <h2>Documentation</h2>
 <ul>
-  <li><a href="#objectiveFunction">How to define objective function</a></li>
-  <li><a href="#constraints">How to define constraints</a></li>
-  <li><a href="#main">How to define use main.py</a></li>
+  <li><a href="#objectiveFunction">How to define an objective function</a></li>
+  <li><a href="#constraints">How to define a constraint</a></li>
+  <li><a href="#main">How to use a main.py</a></li>
   <li><a href="#hyperparameters">Hyperparameters Reference</a></li>
 </ul>
 
-<h2 id="objectiveFunction">How to define objective function</h2>
+<h2 id="objectiveFunction">How to define an objective function</h2>
 <p>An objective function is to determine to return a minimum value from the f(x)
 <br>
 In case you need to find a maximum value, You must define the objective value as 1/f(x)
@@ -43,7 +43,7 @@ def result(self, x):
 
 <strong>Note that. the return value of the result function must be tuple.</strong>
 
-<h2 id="constraints">How to define constraints</h2>
+<h2 id="constraints">How to define a constraint</h2>
 <p>To determine the constraints you must do at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py" target="_blank">genetic_algorithm.py</a>. You must define a constraint for 2 place, first at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py#L47" target="_blank">line 47</a> second at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py#L163" target="_blank">line 163</a> as the same constrains.
 If no constraints you can replace as <strong>True</strong> in "if" logic.<br>
 
@@ -82,7 +82,7 @@ if(
   True
 ):
 ```
-<h2 id="main">How to define use <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/main.py" target="_blank">main.py</a></h2>
+<h2 id="main">How to use a <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/main.py" target="_blank">main.py</a></h2>
 <p>This step is the last step before run the algorithm. You must define lower bounds, upper bounds and hyperparameters as you want.<br>
 For example</p>
 
