@@ -112,6 +112,8 @@ genetic = GA(
     lower_bounds=lower_bounds,
     upper_bounds=upper_bounds
 )
+
+solution = genetic.run()
 ```
 
 <p>If all of the above steps are finished you can use this command to run the algorithm. (Don't forget to cd into a working directory.)</p>
