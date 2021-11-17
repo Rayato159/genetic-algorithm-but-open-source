@@ -44,7 +44,7 @@ def result(self, x):
 <strong>Note that. the return value of the result function must be tuple.</strong>
 
 <h2 id="constraints">How to define a constraint</h2>
-<p>To determine the constraints you must do at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py" target="_blank">genetic_algorithm.py</a>. You must define a constraint for 2 place, first at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py#L47" target="_blank">line 47</a> second at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py#L163" target="_blank">line 163</a> as the same constraints.
+<p>To determine the constraint you must do at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py" target="_blank">genetic_algorithm.py</a>. You must define a constraint for 2 place, first at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py#L47" target="_blank">line 47</a> second at <a href="https://github.com/Rayato159/Genetic_Algorithm_Open_Source/blob/main/genetic_algorithm.py#L163" target="_blank">line 163</a> as the same constraints.
 If no constraints you can replace as <strong>True</strong> in "if" logic.<br>
 
 For exmaple (constraints are required)</p>
