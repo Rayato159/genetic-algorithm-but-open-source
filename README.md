@@ -88,6 +88,7 @@ For example</p>
 
 ```python
 # Use for run GA
+from genetic_algorithm import GA
 
 # Define lower bounds here
 lower_bounds = [
